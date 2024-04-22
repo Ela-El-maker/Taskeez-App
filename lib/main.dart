@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:taskeez/screens/logins/signup.dart';
 import 'package:taskeez/screens/logins/splashScreen.dart';
 
 void main() {
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
           systemOverlayStyle: SystemUiOverlayStyle.light,
         ),
       ),
-      home: const SplashScreen(),
+      home: const SignUpUI(),
     );
   }
 }
